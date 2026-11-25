@@ -1,4 +1,4 @@
-// ===== ไฟล์ของคนที่ 3 (โปรแกรมเมอร์) =====
+ // ===== ไฟล์ของคนที่ 3 (โปรแกรมเมอร์) =====
 // ภารกิจ: ทำให้ปุ่มทั้ง 2 ปุ่มทำงาน
 
 // ดึงองค์ประกอบจากหน้าเว็บมาเก็บในตัวแปร
@@ -14,6 +14,5 @@ helloBtn.addEventListener("click", function () {
 
 // งาน 2: เมื่อกดปุ่ม "สลับโหมดมืด" ให้เพิ่มหรือลบ class "dark" ที่ body
 themeBtn.addEventListener("click", function () {
-  // เขียนโค้ดตรงนี้ 1 บรรทัด
-  // คำใบ้: document.body.classList.toggle("ชื่อ class");
+  document.body.classList.toggle("dark");
 });
